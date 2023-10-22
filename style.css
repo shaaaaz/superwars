@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.heroes,.villains{
+    display: grid;
+    grid-template-columns: 170px 170px ;
+    grid-template-rows: 240px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.heroes{
+    justify-content: end;
+}
+
+.villains{
+    justify-content: start;
+}
+
+.scorecard{
+    justify-content: center;
+    text-align: center;
+    vertical-align: top;
+    font-size: 200%;
+}
+
+.hero{
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score{
+    font-size: 300%;
+}
+
+.footer{
+    margin-left:  50px;
+}
