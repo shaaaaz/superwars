@@ -14,8 +14,8 @@
 
 .heroes,.villains{
     display: grid;
-    grid-template-columns: 170px 170px ;
-    grid-template-rows: 240px;
+    grid-template-columns: 170px 170px 170px;
+    grid-template-rows: 245px 245px 245px;
     gap: 20px;
     justify-content: center;
 }
